@@ -2,20 +2,20 @@
 
 function setup() {
     createCanvas(400, 400);
+    background(0);
     
 }
 
 function draw() {
-    background(100);
-    //line(0, 0, 400, 400);
-    rectMode(CENTER);
-    //noFill();
-    fill(0,0,255);
-    stroke(0, 255, 0);
-    strokeWeight(3)
-    rect(200, 200, 150, 150);
+    
+    noStroke();
+    fill(255, 50);
+    circle(mouseX, mouseY, 24);
+}
 
-    fill(255, 0, 0, 175)
-    noStroke()
-    ellipse(160, 150, 100, 75)
+function mousePressed() {
+    background(0);
+
+
+
 }
